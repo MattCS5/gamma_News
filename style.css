@@ -1,45 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    background-color: rgb(239, 236, 236);
+}
+
 h1 {
     font-size: 80px;
-    text-align: center;
+    
 }
 
 h2{
-    font-size: medium;
+    font-size: 40px;
+    font-weight: lighter;
+
 }
 p{
-    font-style: 30px;
-    font-family:'Times New Roman', serif;
+   font-size: 15px;
+    font-family:'Droid Serif', serif;
 }
 
 .header {
-    display: flex;
-    justify-content:space-evenly; 
-    align-items: center;
+     display: flex;
+     justify-content: center;
     padding: 5px;
-    gap: 30px;
+    height: 130px;
+    transform: translate(50px);
+    
 }
 
 .izquierda{
     border-style: double;
     padding: 10px;
-    width: 200px;
-    
+    width: 200px;  
+    height: 100px;
+    transform: translateX(-120px);
 }
-.centro {
+.titulo {
     width:max-content ;
     padding: 10px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    
-    
-    
+    transform: translateX(-100px);
 }
 
 .izquierda p{
     text-align: center;
 }
+address{
+    font-style: italic;
+}
 
-.centernav{
+.centertextnav{
     text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.bloque{
+    border-right: 2px solid #000;
+    width: 280px; 
+    padding: 5px;
+    
+
+}
+section {
+    display: flex;
+}
+.columnheadline{
+    
+    font-family:"Playfair Display', serif";
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.subtitulo{
+    font-family:"Playfair Display', serif";
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    
 }
