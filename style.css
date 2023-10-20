@@ -9,6 +9,7 @@
 }
 h1 {
     font-size: 80px;
+    font: weight 900px;;
     color: #2f2f2f;
     
 }
@@ -91,7 +92,6 @@ section ~ div{
     padding: 10px;
     padding-bottom: 25px;
     text-align: center;
-    
 }
 
 .subtitulo{
@@ -111,19 +111,61 @@ img{
 
 .textoArticle {
     padding-top: 30px;
-    padding-bottom: 20px;
-}
-.subTerceraColum{
-    font-style: italic;
-    font-size: 24px;
-    font-family: "Playfair Display", serif;
+padding-bottom: 20px;
 }
 
+.tituloPrimeracolum{
+    font-size:30px;
+
+}
+.tituloSegundacolum{
+    font-size:35px;
+    letter-spacing: -0.7px;
+
+}
+.tituloTerceracolum{
+    font-size: 24px;
+    
+}
 .titulocuartacolum{
-    font-size: 36px;
+    font-size: 33px;
     font-family: "Playfair Display", serif;
     font-style:oblique;
 }
 .tituloquintacolum{
-    font-size: 20px;
+    font-size: 24px;
 }
+
+.subtituloPrimeracolum{
+    font-size: 12px;
+    font-weight: bold;
+}
+.subtituloSegundacolum{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.subtituloTerceracolum{
+    font-style: italic;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+}
+.segundoSubtitulotTerceracolum{
+    font-size:35px;
+    letter-spacing: -0.7px;
+    font-family: "Playfair Display", serif;
+  
+    
+}
+.subtituloCuartacolum{
+   font-weight: bold;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.subtituloQuintacolum{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+}
+
